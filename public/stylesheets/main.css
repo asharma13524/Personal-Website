@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://i.imgur.com/tUVwAMO.png"); 
+}
+
+.jumbotron {
+    background-image: url("https://i.imgur.com/tUVwAMO.png"); 
+    padding-bottom: 0px;
+    height: 100%;
+}
+
+.img-fluid {
+        background-repeat: no-repeat, repeat;
+        background-blend-mode: lighten;
+}
+
+#footer {
+    height: 100%;
+    width: 100%;
+}
+
+.footerIcon {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+
