@@ -27,4 +27,6 @@ app.get("/contactme", (req, res) => res.render("contactMe"));
 
 
 //Starting up Server
-app.listen(3000, () => {console.log("server has started!")}); 
+app.listen(process.env.PORT || 3000, function () {
+   console.log("YELPCAMP Server Started!")
+});
