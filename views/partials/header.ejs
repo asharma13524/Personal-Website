@@ -14,40 +14,39 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
 
     <!-- Font Awesome -->
-    <    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navLinks">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active mx-4">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    
-                    <li class="nav-item mx-4">
-                        <a class="nav-link" href="/About">About Me</a>
-                    </li>
 
-                    <li>
-                        <a class="nav-link mx-4" href="/portfolio">Portfolio</a>        
-                    </li>
-                </ul>
-                <ul class="navbar-nav justify-content-between">
-                    <li class="nav-item mx-4">
-                        <a class="nav-link mx-4" href="/books">Books</a>
-                    </li>
-                    <li>
-                        <a class="nav-link mx-4" href="/resume">Resume</a>        
-                    </li>
-                    <li>
-                        <a class="nav-link mx-4" href="/contactme">Contact Me</a>        
-                    </li>
-                </ul>
-            </div>
-        <div>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md navbar-dark bg-dark py-0 fixed-top">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-4">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a href="/about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a href="/portfolio" class="nav-link">Portfolio</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-4">
+                    <a href="books" class="nav-link">Books/Podcasts</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a href="/resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a href="/contactme" class="nav-link">Contact Me</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 

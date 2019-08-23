@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.imgur.com/tUVwAMO.png"); 
+  background-image: url("https://i.imgur.com/tUVwAMO.png"); 
 }
 
 .jumbotron {
@@ -13,9 +13,8 @@ body {
         background-blend-mode: lighten;
 }
 
-#footer {
-    height: 100%;
-    width: 100%;
+.dates{
+    float: right;
 }
 
 .footerIcon {
@@ -23,4 +22,30 @@ body {
     margin-right: 5px;
 }
 
+.place{
+    float: right;
+}
 
+.date {
+    float: right;
+    font-style: italic;
+}
+
+#footer {
+    height: 100%;
+    width: 100%;
+}
+
+#years{
+    float: right;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
